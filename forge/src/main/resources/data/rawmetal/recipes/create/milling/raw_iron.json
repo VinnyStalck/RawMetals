@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rawmetal:raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_iron_ore"
+    }
+  ],
+  "processingTime": 400
+}

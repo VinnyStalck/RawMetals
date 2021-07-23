@@ -1,0 +1,10 @@
+{
+  "item.rawmetal.raw_iron": "Ferro bruto",
+  "item.rawmetal.raw_gold": "Ouro bruto",
+  "item.rawmetal.raw_copper": "Cobre bruto",
+  "item.rawmetal.raw_zinc": "Zinco bruto",
+  "block.rawmetal.raw_iron_block": "Bloco de ferro bruto",
+  "block.rawmetal.raw_gold_block": "Bloco de ouro bruto",
+  "block.rawmetal.raw_copper_block": "Bloco de cobre bruto",
+  "block.rawmetal.raw_zinc_block": "Bloco de zinco bruto"
+}

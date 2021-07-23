@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rawmetal:raw_gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_gold_ore"
+    },
+    {
+      "item": "create:crushed_gold_ore",
+      "count": 2,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 300
+}

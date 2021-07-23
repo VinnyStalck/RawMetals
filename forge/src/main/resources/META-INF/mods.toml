@@ -1,33 +1,33 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "CC0 1.0 Universal"
 
 [[mods]]
-modId = "examplemod"
+modId = "rawmetal"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Raw Metal"
+authors = "VinnyStalck"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Adds the new raw metal items to Vanilla and Create.
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.rawmetal]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.rawmetal]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.rawmetal]]
 modId = "architectury"
 mandatory = true
 versionRange = "[1.1.55,)"

@@ -1,0 +1,10 @@
+{
+  "item.rawmetal.raw_iron": "Raw Iron",
+  "item.rawmetal.raw_gold": "Raw Gold",
+  "item.rawmetal.raw_copper": "Raw Copper",
+  "item.rawmetal.raw_zinc": "Raw Zinc",
+  "block.rawmetal.raw_iron_block": "Block of Raw Iron",
+  "block.rawmetal.raw_gold_block": "Block of Raw Gold",
+  "block.rawmetal.raw_copper_block": "Block of Raw Copper",
+  "block.rawmetal.raw_zinc_block": "Block of Raw Zinc"
+}

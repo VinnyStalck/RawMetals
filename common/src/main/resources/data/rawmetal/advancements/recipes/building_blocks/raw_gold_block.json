@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rawmetal:raw_gold_block"
+    ]
+  },
+  "criteria": {
+    "has_raw_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rawmetal:raw_gold"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rawmetal:raw_gold_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_gold",
+      "has_the_recipe"
+    ]
+  ]
+}

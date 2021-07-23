@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rawmetal:raw_zinc"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_zinc_ore"
+    }
+  ],
+  "processingTime": 350
+}

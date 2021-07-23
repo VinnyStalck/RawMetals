@@ -69,7 +69,7 @@ sourcesJar {
 publishing {
     publications {
         mavenForge(MavenPublication) {
-            artifactId = rootProject.archives_base_name + "-" + project.name
+            artifactId = rootProject.archives_base_name + "-mc" + rootProject.minecraft_version + "-" + project.name
             // add all the jars that should be included when publishing to maven
             artifact(remapJar) {
                 classifier null

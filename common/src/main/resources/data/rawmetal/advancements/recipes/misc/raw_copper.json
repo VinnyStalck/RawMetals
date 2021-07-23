@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rawmetal:raw_copper"
+    ]
+  },
+  "criteria": {
+    "has_raw_copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rawmetal:raw_copper_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rawmetal:raw_copper"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_copper_block",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rawmetal:raw_iron",
+    "rawmetal:raw_gold",
+    "rawmetal:raw_copper",
+    "rawmetal:raw_zinc"
+  ]
+}
